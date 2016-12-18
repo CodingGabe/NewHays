@@ -3785,8 +3785,9 @@ body {
 }
 
 #gabe {
-    background: url(../img/Hays.jpg) 100% 20px no-repeat;
+    background: url(../img/me.jpg) 100% 20px no-repeat;
     padding: 80px 0;
+    background-size: 50%;
 }
 
 #gabe h2 {
