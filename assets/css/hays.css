@@ -617,8 +617,11 @@ a,
 .navbar .navbar-nav > li > a.btn-danger.btn-fill:active,
 .navbar .navbar-nav > li > a.btn-danger.btn-fill.active, .open >
 .navbar .navbar-nav > li > a.btn-danger.btn-fill.dropdown-toggle {
-  background-color: #96252F;
-  color: #FFFFFF;
+    -webkit-filter: brightness(110%);
+    filter: brightness(110%);
+    background-color: transparent;
+  color: #FF3243;
+  border-color: #FF3243;
 }
 .btn-danger.btn-fill .caret,
 .navbar .navbar-nav > li > a.btn-danger.btn-fill .caret {
@@ -3924,4 +3927,35 @@ body {
     font-family: 'Rock Salt', cursive;
     color: #E63946;
     padding: 20px;
+}
+
+.footer-block {
+    min-width: 145px;
+    padding-top: 48px;
+    padding-bottom: 38px;
+    position: relative;
+}
+
+.section-hays {
+    width: 100%;
+    margin: 0 auto;
+    background: url(../img/backdrop%20copy.jpg)
+}
+
+.btn.btn-address {
+    border: 3px solid #E63946;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 6px;
+    margin: 0 0 0 24px;
+    color: #E63946;
+}
+
+@media only screen and (max-width: 767px) {
+    .btn.btn-address {
+        margin: 0;
+        padding: 10px 15px;
+    }
 }
