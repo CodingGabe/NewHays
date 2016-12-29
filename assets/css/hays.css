@@ -162,8 +162,8 @@ a:hover {
 /* *********** 1. Utilitys ************* */
 
 .navbar-brand img {
-    max-width: 50%;
-    margin-top: -17px;
+    max-width: 200px;
+    margin-top: -10px;
 }
 
 .title {
